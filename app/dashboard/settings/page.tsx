@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+// import { Label } from "@/components/ui/label"
 
 export default function SettingsPage() {
   return (
@@ -18,19 +18,19 @@ export default function SettingsPage() {
         <CardContent className="space-y-4">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div className="space-y-2">
-              <Label htmlFor="fullName">Full Name</Label>
+              <label htmlFor="fullName">Full Name</label>
               <Input id="fullName" placeholder="John Doe" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
+              <label htmlFor="email">Email</label>
               <Input id="email" type="email" placeholder="john@example.com" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="username">Username</Label>
+              <label htmlFor="username">Username</label>
               <Input id="username" placeholder="johndoe" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="role">Role</Label>
+              <label htmlFor="role">Role</label>
               <Input id="role" placeholder="Administrator" disabled />
             </div>
           </div>
@@ -46,16 +46,16 @@ export default function SettingsPage() {
         <CardContent className="space-y-4">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div className="space-y-2">
-              <Label htmlFor="currentPassword">Current Password</Label>
+              <label htmlFor="currentPassword">Current Password</label>
               <Input id="currentPassword" type="password" />
             </div>
             <div></div>
             <div className="space-y-2">
-              <Label htmlFor="newPassword">New Password</Label>
+              <label htmlFor="newPassword">New Password</label>
               <Input id="newPassword" type="password" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="confirmPassword">Confirm Password</Label>
+              <label htmlFor="confirmPassword">Confirm Password</label>
               <Input id="confirmPassword" type="password" />
             </div>
           </div>

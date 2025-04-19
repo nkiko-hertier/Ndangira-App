@@ -3,12 +3,11 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "."
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = "postgres://neondb_owner:npg_T5q0pcNRBmMl@ep-crimson-butterfly-a4y5ea2q-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
+  provider = "mysql"
+  url      = "mysql://root:@localhost:3306/ndangira_app"
 }
 
 model Admin {
